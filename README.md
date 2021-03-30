@@ -1,3 +1,29 @@
+You can test the endpoint in your postman with following links : 
+
+- https://my-lyrics.000webhostapp.com/song/getallsongs 
+- https://my-lyrics.000webhostapp.com/song/getbyartist/{your keyword, ex: noah}
+- https://my-lyrics.000webhostapp.com/song/getsongbyalphabet/{your alphabet, ex: a}
+- https://my-lyrics.000webhostapp.com/song/getsongbyid/{your id, ex: 122}
+- https://my-lyrics.000webhostapp.com/song/getallartist
+- https://my-lyrics.000webhostapp.com/song/getartistbyalphabet/{your keyword, ex: noah}
+- https://my-lyrics.000webhostapp.com/song/search/{your keyword, ex: song's title or artist}
+- https://my-lyrics.000webhostapp.com/song/create
+  ex: 
+  judul : {your keyword}
+  penyanyi : {your keyword}
+  link : {your keyword}
+  lirik : {your keyword}
+- https://my-lyrics.000webhostapp.com/song/update/{your song's id}
+  ex:
+  judul : {your keyword}
+  penyanyi : {your keyword}
+  link : {your keyword}
+  lirik : {your keyword}
+  
+- https://my-lyrics.000webhostapp.com/song/delete/18746
+  
+  nb: for update and delete data set request method to POST , i've made mistake for it and will fix it soon :D
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
