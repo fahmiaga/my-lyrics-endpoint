@@ -9,16 +9,16 @@ You can test the endpoint in your postman with following links :
 - https://my-lyrics.000webhostapp.com/song/search/{your keyword, ex: song's title or artist}
 - https://my-lyrics.000webhostapp.com/song/create
   ex: 
-  judul : {your keyword}
-  penyanyi : {your keyword}
-  link : {your keyword}
-  lirik : {your keyword}
+  - judul : {your keyword}
+  - penyanyi : {your keyword}
+  - link : {your keyword}
+  - lirik : {your keyword}
 - https://my-lyrics.000webhostapp.com/song/update/{your song's id}
   ex:
-  judul : {your keyword}
-  penyanyi : {your keyword}
-  link : {your keyword}
-  lirik : {your keyword}
+  - judul : {your keyword}
+  - penyanyi : {your keyword}
+  - link : {your keyword}
+  - lirik : {your keyword}
   
 - https://my-lyrics.000webhostapp.com/song/delete/18746
   
