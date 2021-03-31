@@ -1,7 +1,7 @@
 You can test the endpoint in your postman with following links : 
 
 - https://my-lyrics.000webhostapp.com/song/getallsongs 
-- https://my-lyrics.000webhostapp.com/song/getbyartist/{your keyword, ex: noah}
+- https://my-lyrics.000webhostapp.com/song/getsongbyartist/{your keyword, ex: noah}
 - https://my-lyrics.000webhostapp.com/song/getsongbyalphabet/{your alphabet, ex: a}
 - https://my-lyrics.000webhostapp.com/song/getsongbyid/{your id, ex: 122}
 - https://my-lyrics.000webhostapp.com/song/getallartist
